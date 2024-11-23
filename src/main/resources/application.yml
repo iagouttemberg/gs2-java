@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: oracle
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
